@@ -1,7 +1,7 @@
 # Hexmap-Predictor
 A VGG-16 network to predict the hexmap id of each square in CCZ gaming maps.
 
-![Example Image]([https://example.com/example.png](https://puluo.top/show/img/r8.bmp))
+![Example Image](https://puluo.top/show/img/r8.bmp)
 
 # The environment
 Cuda:    12.1<br />
