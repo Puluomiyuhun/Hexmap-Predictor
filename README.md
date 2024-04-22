@@ -21,11 +21,11 @@ Pytorch: 2.1.0<br />
    In the 'training_data' folder, you would find that each map will be splited into 48×48 images, and a new file called 'train.csv' would be created to save the hex label of each splited map.
 3. If you want to pick the maps of second or more mod, you should update the 'origin_map' folder and change the 'mod_id' in 'DataMaker.py'. This operation is to prevent that new mod maps cover the old map data.
 4. Run the 'train.py'. Some argument should be stated:<br />
-    --batch_size    &emsp   the number of images in one batch.<br />
-    --num_workers   &emsp   the number of workders to deal with the dataloader.<br />
-    --epoch_num     &emsp   how many epoches will be trained.<br />
-    --batch_print   &emsp   how many batches to print the loss result.<br />
-    --epoch_save    &emsp   how many epoches to save the model weights.<br />
-    --resume_train  &emsp   if you want to resumt a training task, you should state the path of the last model weight file.<br />
+    --batch_size    &emsp;   the number of images in one batch.<br />
+    --num_workers   &emsp;   the number of workders to deal with the dataloader.<br />
+    --epoch_num     &emsp;   how many epoches will be trained.<br />
+    --batch_print   &emsp;   how many batches to print the loss result.<br />
+    --epoch_save    &emsp;   how many epoches to save the model weights.<br />
+    --resume_train  &emsp;   if you want to resumt a training task, you should state the path of the last model weight file.<br />
 
    
